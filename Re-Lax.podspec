@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name = 'Re-Lax'
-  spec.version = '1.0.1'
+  spec.version = '1.0.2'
   spec.summary = 'Recreating Parallax on tvOS'
   spec.homepage = 'https://github.com/asynchrony/Re-Lax'
   spec.license = { :type => 'MIT', :file => 'LICENSE' }
@@ -18,5 +18,5 @@ Pod::Spec.new do |spec|
   spec.requires_arc = true
   spec.platform = ['tvos']
   spec.tvos.deployment_target = '9.0'
-  spec.swift_version    = '4.1'
+  spec.swift_version    = '5'
 end
